@@ -1,0 +1,100 @@
+.sale-modal {
+    max-width: 550px;
+  }
+  
+  .sale-modal-body {
+    padding: 25px;
+  }
+  
+  .product-summary {
+    background: var(--bg-color);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .product-summary h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--text-color);
+  }
+  
+  .kannada-name {
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .detail-item:last-child {
+    border-bottom: none;
+  }
+  
+  .detail-item span {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+  
+  .detail-item strong {
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  
+  .sale-form {
+    margin-top: 20px;
+  }
+  
+  .sale-summary {
+    background: var(--bg-color);
+    padding: 15px;
+    border-radius: 6px;
+    margin: 20px 0;
+  }
+  
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+  
+  .summary-row span {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+  
+  .summary-row strong {
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  
+  .summary-row.total {
+    border-top: 2px solid var(--border-color);
+    margin-top: 8px;
+    padding-top: 12px;
+  }
+  
+  .summary-row.total span,
+  .summary-row.total strong {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .summary-row.total strong {
+    color: var(--success-color);
+  }
+  
